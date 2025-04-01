@@ -1,0 +1,45 @@
+.mobile-controls {
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gameboy-logo {
+    color: #0b4986;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* padding: 0 40px; */
+    box-sizing: border-box;
+    /* gap: 8em; */
+}
+
+.control-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.gameboy-controls-cross {
+    position: relative;
+}
+
+.gameboy-controls-cross-positioned {
+    position: absolute;
+    left: 0;
+}

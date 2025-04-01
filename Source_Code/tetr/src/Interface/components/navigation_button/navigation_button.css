@@ -1,0 +1,37 @@
+.navigation-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0.4rem solid var(--color-darkest);
+    background-color: var(--color-light);
+    color: var(--color-darkest);
+    cursor: pointer;
+    margin: 10px;
+    width: 75%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.navigation-button:hover {
+    background-color: var(--color-light);
+}
+
+.navigation-button:active {
+    border: 0.4rem solid var(--color-lightest);
+    color: var(--color-lightest);
+}
+
+.navigation-button.selected {
+    animation: blink 0.5s infinite alternate;
+}
+
+@keyframes blink {
+    0%, 49% {
+        color: var(--color-lightest);
+        border: 0.4rem solid var(--color-lightest);
+    }
+    50%, 100% {
+        color: var(--color-darkest);
+        border: 0.4rem solid var(--color-darkest);
+    }
+}

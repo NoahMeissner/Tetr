@@ -1,0 +1,10 @@
+Theme color palettes:
+https://lospec.com/palette-list/nintendo-gameboy-bgb
+https://lospec.com/palette-list/lava-gb
+https://lospec.com/palette-list/mangavania
+
+D-Pad controls:
+https://github.com/ManzDev/gameboycss
+
+Sounds:
+https://splice.com/sounds/packs/sample-magic/chiptune/samples

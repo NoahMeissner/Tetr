@@ -1,0 +1,35 @@
+/* https://lospec.com/palette-list/nintendo-gameboy-bgb */
+
+:root {
+  /* https://lospec.com/palette-list/nintendo-gameboy-bgb */
+  --color-lightest: #e0f8d0;
+  --color-light: #88c070;
+  --color-dark: #346856;
+  --color-darkest: #081820;
+  
+  --gameboy-bgcolor: #b2b3b7;
+}
+
+[data-theme="blackwhite"] {
+    /* Black and White theme */
+  --color-lightest: #ffffff;
+  --color-light: #cccccc;
+  --color-dark: #666666;
+  --color-darkest: #000000;
+}
+
+[data-theme="lavagb"] {
+    /* https://lospec.com/palette-list/lava-gb*/
+    --color-lightest: #ff8e80;
+    --color-light: #c53a9d;
+    --color-dark: #4a2480;
+    --color-darkest: #051f39;
+}
+
+[data-theme="mangavina"] {
+    /* https://lospec.com/palette-list/mangavania*/
+    --color-lightest: #ffffff;
+    --color-light: #4aedff;
+    --color-dark: #ff8acd;
+    --color-darkest: #b03e80;
+}

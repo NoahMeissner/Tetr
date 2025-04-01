@@ -1,0 +1,47 @@
+.nav-bar {
+    background-color: var(--color-darkest);
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.nav-links li {
+    flex: 1;
+}
+
+.nav-link-left {
+    text-align: left;
+}
+
+.nav-link-center {
+    text-align: center;
+}
+
+.nav-link-right {
+    text-align: right;
+}
+
+.nav-links a {
+    color: var(--color-light);
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+/* Mobile styles */
+.nav-bar.mobile .nav-links {
+    font-size: 0.75rem; /* Increase font size for mobile */
+}

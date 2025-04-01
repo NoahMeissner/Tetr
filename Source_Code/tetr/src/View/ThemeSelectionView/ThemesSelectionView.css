@@ -1,0 +1,60 @@
+.theme-selector {
+  font-family: 'Press Start 2P', cursive;
+  background-color: var(--color-light);
+  padding: 1em 2.5em;
+  border: 6px solid var(--color-darkest);
+  margin: 0 auto;
+  width: 60%;
+}
+
+.theme-image {
+  background-color: var(--color-darkest);
+  border: 4px solid var(--color-light);
+  margin-bottom: 20px;
+}
+
+.theme-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.theme-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.theme-title {
+  text-align: center;
+  margin: 0;
+  color: var(--color-darkest);
+  animation: blink-font 1s infinite;
+  font-size: 1.25rem;
+}
+
+.theme-selector-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.theme-selector-button:hover {
+  color: var(--color-lightest);
+}
+
+.theme-selector-button:active {
+  color: var(--color-lightest);
+}
+
+@keyframes blink-font {
+    0%, 49% {
+        color: var(--color-lightest); /* Light Green */
+    }
+    50%, 100% {
+        color: var(--color-darkest); /* Dark Green */
+    }
+}

@@ -1,0 +1,22 @@
+/* LeaderboardTable.css */
+.leaderboard-table {
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.leaderboard-table th {
+    background-color: var(--color-light);
+    text-align: left;
+}
+
+.leaderboard-table td {
+    text-align: left;
+    color: var(--color-light);
+}
+
+
+h1 {
+    color: var(--color-light);
+    text-align: center;
+    margin: 1em;
+}

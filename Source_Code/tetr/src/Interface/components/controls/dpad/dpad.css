@@ -1,0 +1,55 @@
+.gameboy-controls-cross {
+  border-radius: 50%;
+  padding: 10px;
+  width: 20vw;
+  height: 20vw;
+  min-width: 140px;
+  min-height: 140px;
+  margin: 30px;
+  display: grid;
+  grid-template-areas:
+    ". up ."
+    "left center right"
+    ". down .";
+}
+
+.cursor {
+  background: #313131;
+  border: 3px solid #313131;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.6);
+  display: flex;
+}
+
+.cursor.up, .cursor.left, .cursor.right {
+  border-top-color: #777;
+}
+
+.circle {
+  border: 1px solid #111;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(
+    rgba(255, 255, 255, 0.01) 0 30%,
+    rgba(255, 255, 255, 0.4) 40% 60%,
+    rgba(255, 255, 255, 0.02) 70%
+  );
+}
+
+.up { grid-area: up; }
+.left { grid-area: left; }
+.center { grid-area: center; }
+.right { grid-area: right; }
+.down { grid-area: down; }
+
+.cursor:active {
+  box-shadow: none;
+  border-color: #1b1b1b;
+  background-color: #1b1b1b;
+}
+
+.cursor.center:active {
+  border-color: #1b1b1b;
+}

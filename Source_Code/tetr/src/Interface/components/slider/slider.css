@@ -1,0 +1,68 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    background-color: var(--color-light);
+    padding: 3%;
+    border: 0.4rem solid var(--color-darkest);
+}
+
+.slider-button {
+    flex: 0 0 15%;
+    aspect-ratio: 1 / 1;
+    max-width: 50px;
+    background-color: var(--color-light);
+    color: var(--color-darkest);
+    border: 0.25rem solid var(--color-darkest);
+    border-radius: 0;
+    font-size: clamp(14px, 4vw, 18px);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.slider-button:active {
+    border-color: var(--color-lightest);
+    color: var(--color-lightest);
+    background-color: var(--color-dark);
+}
+
+.slider {
+    flex: 1;
+    margin: 0 3%;
+    width: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 20px;
+    background: var(--color-lightest);
+    outline: none;
+    border: 0.25rem solid var(--color-darkest);
+    border-radius: 0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: var(--color-dark);
+    cursor: pointer;
+    border: 0.25rem solid var(--color-darkest);
+}
+
+.slider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background: var(--color-dark);
+    cursor: pointer;
+    border: 0.25rem solid var(--color-darkest);
+    border-radius: 0;
+}
+
+.slider-container.focused {
+    animation: blink 0.5s infinite alternate;
+}

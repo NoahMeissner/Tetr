@@ -1,0 +1,45 @@
+.game-area {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  height: 100%;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.swap-view, .next-queue {
+  margin-bottom: 10px;
+}
+
+.swap-view {
+  height: fit-content;
+  width: fit-content
+}
+
+.next-queue {
+  height: fit-content;
+  width: fit-content
+}
+
+.game-info {
+  color: var(--color-light);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+
+  .mobile {
+    font-size: 0.6rem;
+  }
+}
+
+.tetris-game {
+  background-color: var(--color-darkest);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

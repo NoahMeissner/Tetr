@@ -1,0 +1,34 @@
+.frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+
+.square-frame {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-dark);
+    position: relative;
+    overflow: hidden;
+}
+
+.tetris-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
