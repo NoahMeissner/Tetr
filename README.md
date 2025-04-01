@@ -5,7 +5,7 @@ In our project, we implemented a cross-platform web app for Tetris that offers a
 Play the game -> https://tetrjs-9e50a.web.app/
 
 ## Group
-Maximilian Weichart | Maximilian.Weichart@stud.uni-regensburg.de 
+Maximilian Weichart | Maximilian.Weichart@stud.uni-regensburg.de <br>
 Noah Meißner | noah.meissner@stud.uni-regensburg.de 
 
 ## Features
